@@ -16,15 +16,18 @@
     h1 {
         font-size: 1.8em;
         margin-bottom: 1em 0 2em 0;
+        color: black;
     }
     label {
         margin: 2em 0;
+        color: black;
+        background: transparent;
     }
     input {
         background: transparent;
         border: 0;
-        border-bottom: 2px solid #fff;
-        color: #fff;
+        border-bottom: 2px solid black;
+        color: black;
         text-align: center;
         display: block;
         margin: 0 auto;

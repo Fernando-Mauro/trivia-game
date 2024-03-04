@@ -15,22 +15,26 @@
 		color: #FFFFFF;
 		font-family: "Poppins", sans-serif;
 	}
+	:global(label:hover) {
+		background: #AEE2FF;
+	}
 	:global(button) {
 		box-sizing: border-box;
 		margin: 1em 0;
-		background: transparent;
-		color: #fff;
+		background: #e5e0ff;
+		color: black;
 		cursor: pointer;
-		border: 3px solid #fff;
+		border: 3px solid dodgerblue;
 		padding: 1em 0;
 		font-size: 0.9em;
 		transition: 0.2s all;
 		width: 100%;
+		border-radius: 25px;
 	}
 	:global(button:hover, button:focus) {
-		background: #FFFFFF;
-		color:  rgb(39,116,174);
 		transform: scale(1.05);
+		background: #AEE2FF;
+    	color: darkblue;
 	}
 	:global(button:active) {
 		background: #FFFFFF;
@@ -42,6 +46,10 @@
 		margin: 0 auto;
 		max-width: 600px;
 		text-align: center;
+		padding: 5px 20px;
+		background: #e5e0ff;
+		opacity: 0.8;
+		border-radius: 30px;
 	}
 	@media only screen and (max-width: 600px) {
 		main {

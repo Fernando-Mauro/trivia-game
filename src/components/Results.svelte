@@ -20,10 +20,12 @@
   h1 {
     font-size: 1.8em;
     margin-bottom: 1em;
+    color: black;
   }
   .final-score {
     padding-bottom: 1em;
     margin-bottom: 0;
+    color: black;
   }
   .score-scale {
     background: rgba(220, 220, 220, 0.6);
@@ -63,6 +65,7 @@
   }
   ul {
     padding: 0;
+    color: black;
   }
   li {
     list-style: none;

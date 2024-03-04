@@ -43,15 +43,25 @@
 
 <style>
     fieldset {
+        background: #E5E0FF;
+        opacity: 0.8;
         border: 0;
         margin-top: 1em;
-        padding: 0 1em;
+        padding: inherit;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     legend {
         margin-bottom: 1em;
+        background: #E5E0FF;
+        color: black;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-top: 30px;
+        width: 99.4%;
     }
     label {
-        color: #fff;
+        color: black;
         cursor: pointer;
         position: relative;
         font-size: 0.8em;
