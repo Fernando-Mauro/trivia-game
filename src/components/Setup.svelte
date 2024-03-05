@@ -49,5 +49,13 @@
                 required />
         </label>
         <button type="submit">Comenzar!</button>
+        Intregantes:
+        <ul>
+            <li>Hernández Peralta Anaí</li>
+            <li>López Mauro Fernando Francisco</li>
+            <li>Castellanos Perez Naomi Michell</li>
+            <li>Manuel Antonio Viviana</li>
+            <li>Moralez Gonzales Leslie</li>
+        </ul>
     </form>
 </div>
